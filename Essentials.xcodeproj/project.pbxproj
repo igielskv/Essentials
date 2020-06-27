@@ -16,6 +16,8 @@
 		9F7ABB4924A7D32F0055ECA1 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7ABB4824A7D32F0055ECA1 /* Order.swift */; };
 		9F7ABB4B24A7D3DC0055ECA1 /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7ABB4A24A7D3DC0055ECA1 /* OrderForm.swift */; };
 		9F7ABB4D24A7E1C00055ECA1 /* ModifiersChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7ABB4C24A7E1C00055ECA1 /* ModifiersChain.swift */; };
+		9F7ABB4F24A7E5040055ECA1 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7ABB4E24A7E5040055ECA1 /* OrderHistory.swift */; };
+		9F7ABB5124A7E5880055ECA1 /* CompletedOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7ABB5024A7E5880055ECA1 /* CompletedOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9F7ABB4824A7D32F0055ECA1 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		9F7ABB4A24A7D3DC0055ECA1 /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
 		9F7ABB4C24A7E1C00055ECA1 /* ModifiersChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersChain.swift; sourceTree = "<group>"; };
+		9F7ABB4E24A7E5040055ECA1 /* OrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		9F7ABB5024A7E5880055ECA1 /* CompletedOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,9 @@
 				9F7ABB3624A7D2730055ECA1 /* SceneDelegate.swift */,
 				9F7ABB3824A7D2730055ECA1 /* ContentView.swift */,
 				9F7ABB4A24A7D3DC0055ECA1 /* OrderForm.swift */,
+				9F7ABB4E24A7E5040055ECA1 /* OrderHistory.swift */,
 				9F7ABB4824A7D32F0055ECA1 /* Order.swift */,
+				9F7ABB5024A7E5880055ECA1 /* CompletedOrder.swift */,
 				9F7ABB4C24A7E1C00055ECA1 /* ModifiersChain.swift */,
 				9F7ABB3A24A7D2730055ECA1 /* Assets.xcassets */,
 				9F7ABB3F24A7D2730055ECA1 /* LaunchScreen.storyboard */,
@@ -155,12 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7ABB5124A7E5880055ECA1 /* CompletedOrder.swift in Sources */,
 				9F7ABB4D24A7E1C00055ECA1 /* ModifiersChain.swift in Sources */,
 				9F7ABB4B24A7D3DC0055ECA1 /* OrderForm.swift in Sources */,
 				9F7ABB3524A7D2730055ECA1 /* AppDelegate.swift in Sources */,
 				9F7ABB3724A7D2730055ECA1 /* SceneDelegate.swift in Sources */,
 				9F7ABB4924A7D32F0055ECA1 /* Order.swift in Sources */,
 				9F7ABB3924A7D2730055ECA1 /* ContentView.swift in Sources */,
+				9F7ABB4F24A7E5040055ECA1 /* OrderHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
