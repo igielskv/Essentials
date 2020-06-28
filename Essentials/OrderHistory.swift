@@ -13,12 +13,7 @@ struct OrderHistory: View {
     
     var body: some View {
         List(previousOrders) { order in
-            VStack(alignment: .leading) {
-                Text(order.summary)
-                Text(order.purchaseDate)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-            }
+            OrderCell(order: order)
         }
     }
 }
